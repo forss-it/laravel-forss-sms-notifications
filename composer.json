@@ -1,0 +1,24 @@
+{
+    "name": "forss/laravel-forss-sms-notifications",
+    "description": "SMS Notification Driver for sms.forss.net",
+    "autoload": {
+        "psr-4": {
+            "Forss\\Laravel\\Notifications\\ForssSms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Forss"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Forss\\Laravel\\Notifications\\ForssSms\\ForssSmsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    }
+}
