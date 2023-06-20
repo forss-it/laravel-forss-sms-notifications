@@ -25,27 +25,9 @@ FORSS_SMS_SENDER=sender
 
 # Usage
 
-### Create a Notification
 
-When your credentials are configured, you can use the `sipgate` channel in your notifications.
 
-```php
-class ExampleNotification extends Notification
-{
-    public function via($notifiable)
-    {
-        return [];
-    }
-
-    public function toSipgate($notifiable)
-    {
-        return SipgateMessage::create('Your message goes here…');
-    }
-}
-```
-
-### Add a recipient
-
+### Create a notification
 Add a `toForssSms` method to your Notification class:
 
 ```php
