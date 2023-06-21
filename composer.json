@@ -6,9 +6,19 @@
             "Forss\\Laravel\\Notifications\\ForssSms\\": "src/"
         }
     },
+    "license": [
+       "OSL-3.0"
+    ],
     "authors": [
         {
-            "name": "Forss"
+            "name": "Andreas Strömgren",
+            "email": "andreas.stromgren@forss.se",
+            "role": "Developer"
+        },
+        {
+            "name": "Markus Moqvist",
+            "email": "markus@stromgrensolutions.se",
+            "role": "Developer"
         }
     ],
     "extra": {
